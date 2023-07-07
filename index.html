@@ -1,0 +1,96 @@
+html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tienda en línea</title>
+   <style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 30px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.product h3 {
+  margin-top: 0;
+}
+
+.product img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product p {
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#cart {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+    </style>
+</head>
+<body>
+  <h1>Nuestra Tienda en Línea</h1>
+  <img src="C:\Users\godnico\Desktop\proyecto html" alt="Descripción de la imagen">
+  
+  <h2>Productos</h2>
+  <div class="product">
+    <h3>Producto 1</h3>
+    <img src="Product1.jpg" alt="Producto 1">
+    <p>OBLEAS TITA CHOCOLATE.</p>
+    <p>Precio: $10.99</p>
+    <button>Agregar al carrito</button>
+  </div>
+  
+  <div class="product">
+    <h3>Producto 2</h3>
+    <img src="Product2.jpg" alt="Producto 2">
+    <p>DON SATUR BIZCOCHITO.</p>
+    <p>Precio: $19.99</p>
+    <button>Agregar al carrito</button>
+  </div>
+  <div class="product">
+    <h3>Producto 2</h3>
+    <img src="Product2.jpg" alt="Producto 2">
+    <p>DON SATUR BIZCOCHITO.</p>
+    <p>Precio: $19.99</p>
+    <button>Agregar al carrito</button>
+  </div>
+  
+  <!-- Agrega más productos aquí -->
+  
+  <h2>Carrito de Compras</h2>
+  <div id="cart">
+    <!-- Aquí se mostrarán los productos agregados al carrito -->
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
